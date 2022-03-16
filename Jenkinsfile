@@ -2,9 +2,9 @@ pipeline {
     agent any 	
 	environment {
 		
-		PROJECT_ID = 'third-fire-260721'
-                CLUSTER_NAME = 'k8s-cluster'
-                LOCATION = 'europe-north1-a'
+		PROJECT_ID = 'niveustraining'
+                CLUSTER_NAME = 'ayushi'
+                LOCATION = 'asia-south1-a'
                 CREDENTIALS_ID = 'kubernetes'		
 	}
 	
